@@ -227,6 +227,21 @@ footer {
 .home .space-images {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
@@ -298,6 +313,8 @@ footer {
     text-align: center;
     border-radius: 10px;
     font-size: 1.5rem;
+    height: 65px;
+    padding-top: 25px;
   }
   .home .walk .walk-text .btn:hover {
     background-color: #F6F7F8;
@@ -306,12 +323,13 @@ footer {
 }
 .home .walk .walk-img {
   width: 46%;
-  margin-left: 4%;
+  margin-left: 2%;
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
     height: auto;
+    margin-left: 0;
     border-radius: 10px;
   }
 }
