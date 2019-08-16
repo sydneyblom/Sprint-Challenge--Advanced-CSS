@@ -4,6 +4,16 @@
 
   .intro {
 
+    .topimage {
+    
+      width: 100%;
+  
+      img {
+        width: 100%;
+        margin: 0 2.5%;
+        height: 100%;
+      }
+    }
     h2 {
       
       padding: 15px;
@@ -12,14 +22,14 @@
     p {
       padding:0 15px;
     }
-  
+   
+    
 
 
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
+    
     width: 100%;
 
     img {
@@ -28,7 +38,13 @@
       border-radius: 20px;
       height: 100%;
     }
-  }
+
+    @media @phone {
+
+      }
+    }
+    
+    }
 
   .visit-planets {
     padding: 15px;
@@ -61,7 +77,7 @@
       }
 
       .btn {
-        .custom-btn(20%, 10%)
+        .custom-btn(30%, 10%)
       }
 .container {
   max-width: 800px;
@@ -81,5 +97,4 @@
       }
     }
   }
-}
 }// home
