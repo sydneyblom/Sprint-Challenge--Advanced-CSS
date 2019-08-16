@@ -1,3 +1,7 @@
+.displaycolumn {
+  display: flex;
+  flex-direction: column;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -185,6 +189,9 @@ p {
   text-decoration: none;
   color: #23293B;
 }
+.topnav nav a:hover {
+  color: #81848E;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -237,11 +244,31 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #22283A;
+  color: #F6F7F8;
+  width: 20%;
+  height: 10%;
+  padding: 9px 12px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+}
+.home .walk .walk-text .container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;

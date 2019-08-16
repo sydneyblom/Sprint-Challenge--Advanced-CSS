@@ -1,4 +1,5 @@
 // Navigation code here
+
 .topnav {
     display: flex;
     flex-direction: column;
@@ -6,6 +7,7 @@
     justify-content: center;
     background: @nav-bg;
     border-bottom: 1px solid @nav-border;
+
     h1 {
         display: flex;
         justify-content: center;
@@ -17,12 +19,16 @@
         display: flex;
         justify-content: center;
         padding: 2% 15% 1% 15%;
+        
+
 
 a {
+    .inversecolor();
     font-size: 1.4rem;
 padding: 0 30px; 
 text-decoration: none;
 color: @header-font-color;
+
 }
     }
 }
